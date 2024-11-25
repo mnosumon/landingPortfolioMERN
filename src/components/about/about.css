@@ -1,5 +1,5 @@
-.hero-section {
-  background-color: #fdf6f2;
+.hero_section {
+  background-color: transparent;
   color: #333;
   padding: 100px 0;
 }
@@ -66,4 +66,28 @@ p {
   height: auto;
   border-radius: 10px;
   object-fit: cover;
+}
+.timelineWrapper {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.timeLine {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.timeLineDesc h3 {
+  font-weight: 900;
+}
+
+.timeLineDesc h3:first-child {
+  color: #ff6b00;
+}
+.tickWrapper {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  margin-bottom: 40px;
 }
