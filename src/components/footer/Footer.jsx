@@ -3,22 +3,22 @@ import "./footer.css";
 
 const Footer = () => {
   return (
-    <footer class="footer">
-      <div class="container">
-        <div class="footer-section">
-          <h2 class="brand">
-            <span class="highlight">Cre</span>Design
+    <footer className="footer">
+      <div className="container footerWrapper">
+        <div className="footer-section">
+          <h2 className="brand">
+            <span className="highlight">Cre</span>Design
           </h2>
-          <p class="description">
+          <p className="description">
             At vero eos et accusamus et iusto odio dign ducimus qui blanditiis
             praesentium.
           </p>
-          <a href="mailto:credesign@gmail.com" class="email">
+          <a href="mailto:credesign@gmail.com" className="email">
             credesign@gmail.com
           </a>
         </div>
 
-        <div class="footer-section">
+        <div className="footer-section">
           <h3>Explore Links</h3>
           <ul>
             <li>
@@ -36,7 +36,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div class="footer-section">
+        <div className="footer-section">
           <h3>My Services</h3>
           <ul>
             <li>UI/UX Design</li>
@@ -46,19 +46,19 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div class="footer-section">
+        <div className="footer-section">
           <h3>Follow Me</h3>
-          <div class="social-icons">
-            <a href="#" class="icon">
+          <div className="social-icons">
+            <a href="#" className="icon">
               F
             </a>
-            <a href="#" class="icon">
+            <a href="#" className="icon">
               T
             </a>
-            <a href="#" class="icon">
+            <a href="#" className="icon">
               D
             </a>
-            <a href="#" class="icon">
+            <a href="#" className="icon">
               B
             </a>
           </div>
@@ -70,7 +70,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div class="footer-bottom">
+      <div className="footer-bottom">
         <p>All rights reserved © 2023 CreDesign</p>
         <a href="#">Terms & Conditions</a>
         <a href="#">Privacy Policy</a>

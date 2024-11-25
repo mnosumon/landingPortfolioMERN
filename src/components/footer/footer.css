@@ -4,7 +4,7 @@
   padding: 50px 20px;
 }
 
-.container {
+.footerWrapper {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
