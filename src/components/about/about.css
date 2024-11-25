@@ -17,6 +17,9 @@
   align-items: center;
   gap: 10px;
 }
+.faramIcon {
+  display: block;
+}
 .subtitle {
   font-size: 14px;
   font-weight: bold;
