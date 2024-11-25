@@ -10,7 +10,7 @@ const Blog = () => {
     <section className="blog">
       <div className="textCenter">
         <img className="faramIcon" src={FrameIcon} alt="Frame Icon" />
-        <span className="subtitle">I AM DESIGNER</span>
+        <span className="subtitle">My Blog</span>
       </div>
       <div className="container">
         <h2 className="blogHead">Latest Blog</h2>

@@ -15,7 +15,7 @@ const Service = () => {
     <section className="services container">
       <div className="textCenter">
         <img className="faramIcon" src={FrameIcon} alt="Frame Icon" />
-        <span className="subtitle">I AM DESIGNER</span>
+        <span className="subtitle">My Service</span>
       </div>
       <h1 className="serviceHead">Services I Offer</h1>
       <div className="services-grid">

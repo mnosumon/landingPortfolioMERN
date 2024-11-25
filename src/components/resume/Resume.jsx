@@ -1,10 +1,15 @@
 import React from "react";
 import "./resume.css";
+import FrameIcon from "../../assets/icon/frameIcon.png";
 
 const Resume = () => {
   return (
     <section className="resume">
       <div className="container">
+        <div className="textCenter">
+          <img className="faramIcon" src={FrameIcon} alt="Frame Icon" />
+          <span className="subtitle">My Resume</span>
+        </div>
         <h1>10+ YEARS OF EXPERIENCE</h1>
 
         <div className="section">

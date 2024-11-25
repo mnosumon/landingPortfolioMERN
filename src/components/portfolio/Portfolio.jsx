@@ -14,7 +14,7 @@ const Portfolio = () => {
       <div className="container">
         <div className="textCenter">
           <img className="faramIcon" src={FrameIcon} alt="Frame Icon" />
-          <span className="subtitle">I AM DESIGNER</span>
+          <span className="subtitle">My Portfolio</span>
         </div>
         <h2>Visit My Portfolio</h2>
         <div class="portfolio-container">

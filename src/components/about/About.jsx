@@ -16,7 +16,7 @@ const About = () => {
         <div className="content">
           <div className="subTitleWrapper">
             <img className="faramIcon" src={FrameIcon} alt="Frame Icon" />
-            <span className="subtitle">I AM DESIGNER</span>
+            <span className="subtitle">About Me</span>
           </div>
           <h1>
             I Can Design <br /> Anything You Want
