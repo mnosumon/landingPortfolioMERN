@@ -4,8 +4,8 @@ import Logo from "../../assets/image/logo.png";
 
 const Navbar = () => {
   return (
-    <section className="container">
-      <nav className="navbar">
+    <section className="navSection">
+      <nav className="navbar container">
         <div className="logo">
           <a href="#">
             <img src={Logo} alt="Logo" />
