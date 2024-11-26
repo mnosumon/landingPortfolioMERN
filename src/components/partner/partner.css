@@ -1,19 +1,29 @@
 .partners-section {
-  text-align: center;
-  padding: 20px;
+  padding: 100px 0;
+  background-color: #fdf6f2;
+}
+.partnerGrid {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
 }
 
-.partners {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 15px;
+.partner {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 20px 50px;
+}
+
+.partner:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  background-color: #fdf6f2;
 }
 
 .partner img {
-  max-width: 100px;
-  height: auto;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  padding: 10px;
+  width: 70px;
 }
